@@ -1,0 +1,113 @@
+*{
+    font-family: 'Lato', sans-serif;
+  }
+
+  body::-webkit-scrollbar {
+    background-color: #22243a; 
+    width: 0.2em;
+
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: goldenrod;
+  outline: 10px solid red;
+}
+
+  .container-fluid{
+    background: #22243a;
+    height: 300vh;
+}
+
+.wrapper{
+    height: 100vh;;
+}
+
+ /* ----- BUTTTONS -------- */
+#navbarNavAltMarkup > div > a:nth-child(n){
+    --c: goldenrod;
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 1.5em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+
+#navbarNavAltMarkup > div > a > span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+
+#navbarNavAltMarkup > div > a:nth-child(n):hover {
+    color: black;
+}
+
+#navbarNavAltMarkup > div > a:nth-child(n):hover span {
+    transform: translateY(0) scale(2);
+}
+
+#navbarNavAltMarkup > div > a:nth-child(n) > span:nth-child(1) {
+    --n: 1;
+}
+
+#navbarNavAltMarkup > div > a:nth-child(n) > span:nth-child(2) {
+    --n: 2;
+}
+
+#navbarNavAltMarkup > div > a:nth-child(n) > span:nth-child(3) {
+    --n: 3;
+}
+
+#navbarNavAltMarkup > div > a:nth-child(n) > span:nth-child(4) {
+    --n: 4;
+}
+
+
+
+/* --- FIRST DESC --- */
+
+.description-top{
+    color: goldenrod;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 5vw;
+    text-align: left;
+    top: 1em;
+    padding: 0px 20px;
+}
+
+.desc-me{
+    color: goldenrod;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 5vw;
+    text-align: right;
+    top: 1em;
+    padding: 0px 20px;
+
+}
+
+
+.span-underline{
+    border-bottom: 4px solid  goldenrod;
+}
