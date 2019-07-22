@@ -113,5 +113,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body > div > div.col-md-12.wrapper > h1 > a:hover{
+    background: goldenrod;
+    color: #22243a;
     text-decoration: none;
 }
