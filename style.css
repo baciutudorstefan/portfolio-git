@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
     --c: goldenrod;
     color: var(--c);
     font-size: 16px;
-    border: 0.1.5em solid var(--c);
+    border: 1.5em solid var(--c);
     border-radius: 0.5em;
     width: 12em;
     height: 3em;
