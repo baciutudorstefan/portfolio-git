@@ -107,7 +107,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-.span-underline{
+.span-underline, body > div > div.col-md-12.wrapper > h1 > a{
     border-bottom: 4px solid  goldenrod;
     color: goldenrod;
 }
