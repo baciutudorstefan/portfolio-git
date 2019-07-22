@@ -109,4 +109,9 @@ body::-webkit-scrollbar-thumb {
 
 .span-underline{
     border-bottom: 4px solid  goldenrod;
+    color: goldenrod;
+}
+
+body > div > div.col-md-12.wrapper > h1 > a:hover{
+    text-decoration: none;
 }
